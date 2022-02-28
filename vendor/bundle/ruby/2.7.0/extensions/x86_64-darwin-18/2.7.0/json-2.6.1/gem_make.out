@@ -1,0 +1,13 @@
+current directory: /Users/v8/Documents/nandos9/AwesomeProject/vendor/bundle/ruby/2.7.0/gems/json-2.6.1/ext/json
+/Users/v8/.rvm/rubies/ruby-2.7.0-preview1/bin/ruby -I /Users/v8/.rvm/rubies/ruby-2.7.0-preview1/lib/ruby/2.7.0 -r ./siteconf20220228-893-i49co7.rb extconf.rb
+creating Makefile
+
+current directory: /Users/v8/Documents/nandos9/AwesomeProject/vendor/bundle/ruby/2.7.0/gems/json-2.6.1/ext/json
+make "DESTDIR=" clean
+
+current directory: /Users/v8/Documents/nandos9/AwesomeProject/vendor/bundle/ruby/2.7.0/gems/json-2.6.1/ext/json
+make "DESTDIR="
+make: Nothing to be done for `all'.
+
+current directory: /Users/v8/Documents/nandos9/AwesomeProject/vendor/bundle/ruby/2.7.0/gems/json-2.6.1/ext/json
+make "DESTDIR=" install

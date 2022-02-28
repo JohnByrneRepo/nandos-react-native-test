@@ -1,0 +1,29 @@
+dd43755d1cb2ada9b37b17e96c10272f
+"use strict";
+
+var __importDefault = this && this.__importDefault || function (mod) {
+  return mod && mod.__esModule ? mod : {
+    "default": mod
+  };
+};
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var App_1 = __importDefault(require("../App"));
+
+var react_1 = __importDefault(require("react"));
+
+var react_native_testing_library_1 = require("react-native-testing-library");
+
+describe('<UserListItem />', function () {
+  afterEach(react_native_testing_library_1.cleanup);
+  it('calls onPress event to triger onPressItem', function () {
+    var onPressItemMock = jest.fn();
+
+    var _ref = (0, react_native_testing_library_1.render)(React.createElement(App_1.default, null)),
+        getByTestId = _ref.getByTestId;
+  });
+});
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7O0FBQUE7O0FBQ0E7O0FBRUE7O0FBRUFBLFFBQVEsQ0FBQyxrQkFBRCxFQUFxQixZQUFLO0FBQzlCQyxXQUFTLENBQUNDLHNDQUFELENBQVQ7QUFFQUMsSUFBRSxDQUFDLDJDQUFELEVBQThDLFlBQUs7QUFDakQsUUFBTUMsZUFBZSxHQUFHQyxJQUFJLENBQUNDLEVBQUwsRUFBeEI7O0FBRUEsZUFBd0IsMkNBQU8sb0JBQUMsS0FBRCxDQUFDLE9BQUQsT0FBUCxDQUF4QjtBQUFBLFFBQVFDLFdBQVIsUUFBUUEsV0FBUjtBQUlILEdBUEMsQ0FBRjtBQVFILENBWE8sQ0FBUiIsIm5hbWVzIjpbImRlc2NyaWJlIiwiYWZ0ZXJFYWNoIiwicmVhY3RfbmF0aXZlX3Rlc3RpbmdfbGlicmFyeV8xIiwiaXQiLCJvblByZXNzSXRlbU1vY2siLCJqZXN0IiwiZm4iLCJnZXRCeVRlc3RJZCJdLCJzb3VyY2VzIjpbIi9Vc2Vycy92OC9Eb2N1bWVudHMvbmFuZG9zOS9Bd2Vzb21lUHJvamVjdC9fX3Rlc3RzX18vQXBwLXRlc3QudHN4Il0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBBcHAgZnJvbSAnLi4vQXBwJztcbmltcG9ydCBSZWFjdCBmcm9tICdyZWFjdCc7XG5pbXBvcnQgeyBleHBlY3QsIHRlc3QgfSBmcm9tICdAamVzdC9nbG9iYWxzJztcbmltcG9ydCB7IHJlbmRlciwgY2xlYW51cCwgZmlyZUV2ZW50IH0gZnJvbSAncmVhY3QtbmF0aXZlLXRlc3RpbmctbGlicmFyeSc7XG5cbmRlc2NyaWJlKCc8VXNlckxpc3RJdGVtIC8+JywgKCkgPT4ge1xuICAgIGFmdGVyRWFjaChjbGVhbnVwKVxuXG4gICAgaXQoJ2NhbGxzIG9uUHJlc3MgZXZlbnQgdG8gdHJpZ2VyIG9uUHJlc3NJdGVtJywgKCkgPT4ge1xuICAgICAgICBjb25zdCBvblByZXNzSXRlbU1vY2sgPSBqZXN0LmZuKClcblxuICAgICAgICBjb25zdCB7IGdldEJ5VGVzdElkIH0gPSByZW5kZXIoPEFwcC8+KVxuXG4gICAgICAgIC8vIGZpcmVFdmVudC5wcmVzcyhnZXRCeVRlc3RJZCgnbGlzdEl0ZW1UZXN0SUQnKSlcbiAgICAgICAgLy8gZXhwZWN0KG9uUHJlc3NJdGVtTW9jaykudG9IYXZlQmVlbkNhbGxlZCgpO1xuICAgIH0pO1xufSk7Il19
